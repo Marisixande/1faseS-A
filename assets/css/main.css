@@ -95,7 +95,7 @@ input, select, textarea {
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
-		font-family: 'Confortaa', sans-serif;
+		font-family: 'century gothic', sans-serif;
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;
@@ -114,7 +114,7 @@ input, select, textarea {
 		}
 
 	input, select, textarea {
-		font-family: 'Confortaa', sans-serif;
+		font-family: 'century gothic', sans-serif;
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;
@@ -145,11 +145,14 @@ input, select, textarea {
 		font-size: 2.25em;
 		margin: 0 0 1.1em 0;
 		line-height: 1em;
+		font-family: 'candara', sans-serif;
+		font-style: italic;
 	}
 
 	h3 {
 		font-size: 1.35em;
 		margin: 0 0 1em 0;
+		font-family: 'candara', sans-serif;
 	}
 
 	b, strong {
@@ -1634,7 +1637,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		position: relative;
 		display: inline-block;
-		background: #0090c5;
+		background: #2c6fd1;
 		color: #fff;
 		text-decoration: none;
 		border-radius: 6px;
@@ -1941,7 +1944,7 @@ input, select, textarea {
 			background: #003ca2;
 			color: #fff;
 			border-radius: 6px;
-			font-family: 'Oleo Script', serif;
+			font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 			font-weight: 400;
 			padding: 0.25em 0.2em 0.25em 0.2em;
 			font-size: 3.25em;
