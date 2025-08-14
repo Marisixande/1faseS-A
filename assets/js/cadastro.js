@@ -20,8 +20,8 @@ function dadosCadastrados() {
       <p><strong>E-mail:</strong> ${item.email}</p>
       <p><strong>Data de Nascimento:</strong> ${dataFormatada}</p>
       <p><strong>Foto:</strong><br><img src="${item.foto}" alt="${item.nome}" width="100"></p>
-      <button onclick="editar(${index})">Editar</button>
-      <button onclick="remover(${index})">Remover</button>
+      <button class = "batata" onclick="editar(${index})">Editar</button>
+      <button class = "laranja" onclick="remover(${index})">Remover</button>
     `;
     dados.appendChild(div);
   });
