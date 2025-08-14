@@ -70,7 +70,6 @@
     }
 
     #quiabo{
-      .batata{
       
         font-family: 'century gothic', sans-serif;
         background-color: #2c6fd1;
@@ -78,14 +77,11 @@
         border: none;
         cursor: pointer;
         padding: 18px;
+        width: 3px;
        
       }
 
-      #quiabo{
-        background-color: chocolate;
-      }
-
-      .laranja{
+      .laranja :no-button{
         font-family: 'century gothic', sans-serif;
         background-color: #2c6fd1;
         color: white;
@@ -93,16 +89,8 @@
         cursor: pointer;
         padding: 18px;
       }
-    }
+    
 
-    .laranja{
-      font-family: 'century gothic', sans-serif;
-      background-color: #2c6fd1;
-      color: white;
-      border: none;
-      cursor: pointer;
-      padding: 18px;
-    }
     
 /* 
     button {
