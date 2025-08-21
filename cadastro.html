@@ -6,6 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" type="image/x-icon" href="images/logo  aba.png" />
   <link rel="stylesheet" href="assets/css/cadastro.css">
+  <style>
+    body {
+      background-image: url("images/fundo-cadastro.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh; /* altura total da tela */
+      margin: 0;     /* remove margens padrão */
+    }
+  </style>
 </head>
 <body>
   <div id="page-wrapper">
@@ -23,7 +33,7 @@
 
   <h1>Cadastre-se!</h1>
 
-  <form id="form">
+  <form id="form" class="formulario">
     <label for="nome">Nome Completo:</label>
     <input type="text" id="nome" name="nome" required>
 
